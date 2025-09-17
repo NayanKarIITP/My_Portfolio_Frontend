@@ -238,7 +238,8 @@ export default function ContactSection() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [statusMessage, setStatusMessage] = useState("")
   const [isSuccess, setIsSuccess] = useState<boolean | null>(null)
-  const API_ENDPOINT = "http://localhost:5000/api/messages"
+  // const API_ENDPOINT = "http://localhost:5000/api/messages"
+  const API_ENDPOINT = "/api/messages"
 
   useEffect(() => {
     const animate = () => {

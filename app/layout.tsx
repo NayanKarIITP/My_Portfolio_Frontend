@@ -6,8 +6,11 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Nayan Kar',
-  description: 'Created by Nayan Kar',
+  description: 'Aspiring Software Engineer & AI/ML Engineer',
   generator: 'Nayan Kar',
+  icons:{
+    icon:'./favicon.ico'
+  }
 }
 
 export default function RootLayout({
