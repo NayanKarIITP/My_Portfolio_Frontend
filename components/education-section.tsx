@@ -76,7 +76,7 @@ export function EducationSection() {
                       <motion.div className="flex items-center" variants={itemVariants}>
                         <Award className="h-4 w-4 text-secondary mr-2 flex-shrink-0" />
                         <span className="text-muted-foreground">CGPA: </span>
-                        <span className="font-semibold text-foreground ml-1">8.21</span>
+                        <span className="font-semibold text-foreground ml-1">8.03</span>
                       </motion.div>
                     </motion.div>
                   </div>
