@@ -217,7 +217,7 @@ As an aspiring Software and AI/ML Engineer from IIT, I'm passionate about buildi
           className="border-2 border-white text-white hover:bg-white hover:text-background text-lg px-8 py-4 transform hover:scale-105 transition-all duration-300 bg-transparent"
           asChild
         >
-          <a href="/IIT_Patna_Resume_Final.pdf" target="_blank" rel="noreferrer">
+          <a href="/Resume_NK.pdf" target="_blank" rel="noreferrer">
             <Download className="mr-2 h-5 w-5" />
             Download Resume
           </a>
