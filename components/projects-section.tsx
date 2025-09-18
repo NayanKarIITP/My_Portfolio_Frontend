@@ -45,7 +45,7 @@ const projects = [
     description:
       "A console-based application for managing patient records, appointments, and hospital resources, focusing on efficient data handling.",
     technologies: ["C++", "Data Structures"],
-    links: [],
+    links: [{ label: "GitHub", url: "https://github.com/NayanKarIITP/Hospital-Management" }],
   },
 ]
 
@@ -157,6 +157,28 @@ export function ProjectsSection() {
             </motion.div>
           ))}
         </motion.div>
+        {/* === START: NEW SECTION === */}
+        <motion.div
+          className="text-center mt-16" // Added margin-top for spacing
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.8 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+        >
+          <h3 className="text-xl font-semibold mb-4 text-foreground">
+            Want to See More?
+          </h3>
+          <p className="text-muted-foreground mb-6 max-w-md mx-auto">
+            Check out my GitHub profile for a full list of my projects, contributions, and coding activity.
+          </p>
+          <Button asChild size="lg">
+            <a href="https://github.com/NayanKarIITP" target="_blank" rel="noopener noreferrer">
+              <Github className="h-4 w-4 mr-2" />
+              Explore More on GitHub
+            </a>
+          </Button>
+        </motion.div>
+        {/* === END: NEW SECTION === */}
       </div>
     </section>
   )
