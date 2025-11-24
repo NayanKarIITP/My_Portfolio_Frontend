@@ -239,7 +239,8 @@ export default function ContactSection() {
   const [statusMessage, setStatusMessage] = useState("")
   const [isSuccess, setIsSuccess] = useState<boolean | null>(null)
   // const API_ENDPOINT = "http://localhost:5000/api/messages"
-  const API_ENDPOINT = "/api/messages"
+  const API_ENDPOINT = `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/messages`;
+
 
   useEffect(() => {
     const animate = () => {

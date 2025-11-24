@@ -63,16 +63,16 @@ import { useEffect, useRef, useState } from "react"
 
 // Data for the experience item, including a new `technologies` array
 const experience = {
-  title: "AI & Full-Stack Developer Intern",
-  company: "Under the guidance of Dr. Joydeep Chandra",
-  period: "June 2025 - Present",
+  title: "Research Intern(AI & Full-Stack)",
+  company: "Under the guidance of Assistant Professor Dr. Joydeep Chandra of IIT Patna.",
+  period: "1st June 2025 - 30th Sep 2025",
   description: [
     "Developed and maintained features for a client-facing web application using the MERN stack.",
     "Collaborated on designing the REST API architecture and database schema with MongoDB.",
     "Contributed to both frontend (React) and backend (Node.js) components, ensuring seamless integration.",
     "Participated in code reviews and agile development cycles to deliver high-quality software.",
   ],
-  technologies: ["React", "Node.js", "MongoDB", "Express.js", "MERN Stack", "REST API"],
+  technologies: ["Next.js", "Node.js", "MongoDB", "Express.js", "Web-Scraping", "REST API"],
 }
 
 export function ExperienceSection() {
