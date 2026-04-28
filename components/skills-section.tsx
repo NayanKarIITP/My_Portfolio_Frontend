@@ -92,18 +92,18 @@ const skillCategories = [
   {
     title: "Data Science & ML",
     icon: Brain,
-    skills: ["Machine Learning", "Deep Learning", "NumPy", "Pandas", "SciPy", "Matplotlib"],
+    skills: ["Machine Learning", "Deep Learning","NLP", "Langchain", "NumPy", "Pandas", "Scikit-learn", "TensorFlow", "Matplotlib"],
   },
   {
     title: "Backend Development",
     icon: Server,
     skills: ["Node.js", "Express.js", "MongoDB", "REST APIs"],
   },
-  {
-    title: "Frontend Development",
-    icon: Globe,
-    skills: ["React", "Next.js", "HTML", "CSS", "WebSockets"],
-  },
+  // {
+  //   title: "Frontend Development",
+  //   icon: Globe,
+  //   skills: ["React", "Next.js", "HTML", "CSS", "WebSockets"],
+  // },
   {
     title: "Core CS & Design",
     icon: Cpu,

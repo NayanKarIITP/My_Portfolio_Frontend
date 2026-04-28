@@ -6,14 +6,71 @@ import { Github } from "lucide-react"
 import { motion, easeOut } from "framer-motion" // Import motion and easeOut from framer-motion
 
 const projects = [
+  // {
+  //   title: "Full-Stack ORM Platform",
+  //   description:
+  //     "A comprehensive platform for real-time brand monitoring and sentiment analysis, built with a web scraping engine and a dynamic analytics dashboard.",
+  //   technologies: ["Next.js", "Node.js", "Express.js", "MongoDB", "Web Scraping", "REST APIs", "JWT"],
+  //   links: [
+  //     { label: "Frontend", url: "https://github.com/NayanKarIITP/ORM_Frontend" },
+  //     { label: "Backend", url: "https://github.com/NayanKarIITP/ORM_Backend" },
+  //   ],
+  // },
   {
-    title: "Full-Stack ORM Platform",
+    title: "DocIQ — Multimodal RAG System",
     description:
-      "A comprehensive platform for real-time brand monitoring and sentiment analysis, built with a web scraping engine and a dynamic analytics dashboard.",
-    technologies: ["Next.js", "Node.js", "Express.js", "MongoDB", "Web Scraping", "REST APIs", "JWT"],
+      "A powerful multimodal Retrieval-Augmented Generation (RAG) system that processes text, images, and tables using advanced embeddings, vector search, and LLM fine-tuning for high-accuracy responses.",
+    technologies: [
+      "Python",
+      "FastAPI",
+      "Streamlit",
+      "Qdrant",
+      "Gemini API",
+      "Docker",
+      "LoRA",
+      "DPO",
+      "RAG",
+      "LLMs"
+    ],
     links: [
-      { label: "Frontend", url: "https://github.com/NayanKarIITP/ORM_Frontend" },
-      { label: "Backend", url: "https://github.com/NayanKarIITP/ORM_Backend" },
+      { label: "GitHub", url: "https://github.com/NayanKarIITP/DocIQ-/" }
+    ],
+  },
+
+  {
+    title: "AI Career Copilot",
+    description:
+      "An AI-powered career assistant that analyzes resumes, tracks behavioral signals, and provides real-time interview feedback using computer vision and machine learning techniques.",
+    technologies: [
+      "Python",
+      "OpenCV",
+      "MediaPipe",
+      "Gemini API",
+      "MongoDB",
+      "Machine Learning"
+    ],
+    links: [
+      { label: "Frontend", url: "https://github.com/NayanKarIITP/CarrierCopilot_Frontend" },
+      { label: "Backend", url: "https://github.com/NayanKarIITP/CarrierCopilot" },
+      { label: "Live Demo", url: "https://carrier-copilot.vercel.app/" },
+    ],
+  },
+
+  {
+    title: "Financial Sentiment Stock Predictor",
+    description:
+      "An end-to-end machine learning system that predicts stock price movement using financial news sentiment and technical indicators, with explainability and real-time dashboard integration.",
+    technologies: [
+      "Python",
+      "XGBoost",
+      "FinBERT",
+      "FastAPI",
+      "Streamlit",
+      "MLflow",
+      "SHAP"
+    ],
+    links: [
+      { label: "GitHub", url: "https://github.com/NayanKarIITP/financial-sentiment-predictor" }
     ],
   },
   {
@@ -24,6 +81,7 @@ const projects = [
     links: [
       { label: "Web App", url: "https://github.com/NayanKarIITP/DevTinde_Web" },
       { label: "Server", url: "https://github.com/NayanKarIITP/devTinder" },
+      { label: "Live Demo", url: "https://techtribe-delta.vercel.app/" },
     ],
   },
   {

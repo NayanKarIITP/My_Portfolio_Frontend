@@ -121,7 +121,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button"
-import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react"
+import { ArrowDown, Activity, Code, Code2, Download, Github, Linkedin, Mail } from "lucide-react"
 import { useState, useEffect } from "react"
 import { motion, easeOut } from "framer-motion" // Import motion and easeOut from framer-motion
 
@@ -247,31 +247,69 @@ As an aspiring Software and AI/ML Engineer from IIT, I'm passionate about buildi
     initial="hidden"
     animate="visible"
   >
-    <a
-      href="[https://github.com/NayanKarIITP](https://github.com/NayanKarIITP)"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-white/70 hover:text-primary transition-all duration-300 transform hover:scale-125"
-    >
-      <Github className="h-6 w-6" />
-      <span className="sr-only">GitHub</span>
-    </a>
-    <a
-      href="[https://linkedin.com/in/nayan-kar-8221392a8](https://linkedin.com/in/nayan-kar-8221392a8)"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-white/70 hover:text-primary transition-all duration-300 transform hover:scale-125"
-    >
-      <Linkedin className="h-6 w-6" />
-      <span className="sr-only">LinkedIn</span>
-    </a>
-    <a
-      href="mailto:nayan101kar@gmail.com"
-      className="text-white/70 hover:text-primary transition-all duration-300 transform hover:scale-125"
-    >
-      <Mail className="h-6 w-6" />
-      <span className="sr-only">Email</span>
-    </a>
+      {/* GitHub */}
+  <a
+    href="https://github.com/NayanKarIITP"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white/70 hover:text-primary transition-all duration-300 transform hover:scale-125"
+  >
+    <Github className="h-6 w-6" />
+    <span className="sr-only">GitHub</span>
+  </a>
+
+  {/* LinkedIn */}
+  <a
+    href="https://linkedin.com/in/nayan-kar-8221392a8"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white/70 hover:text-primary transition-all duration-300 transform hover:scale-125"
+  >
+    <Linkedin className="h-6 w-6" />
+    <span className="sr-only">LinkedIn</span>
+  </a>
+
+  {/* LeetCode */}
+  <a
+    href="https://leetcode.com/u/NayanKar_CS/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white/70 hover:text-primary transition-all duration-300 transform hover:scale-125"
+  >
+    <SiLeetcode className="h-6 w-6" />
+    <span className="sr-only">LeetCode</span>
+  </a>
+
+  {/* Codeforces */}
+  <a
+    href="https://codeforces.com/profile/UJ_Ni_Nay"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white/70 hover:text-primary transition-all duration-300 transform hover:scale-125"
+  >
+    <SiCodeforces className="h-6 w-6" />
+    <span className="sr-only">Codeforces</span>
+  </a>
+
+  {/* HackerRank */}
+  <a
+    href="https://www.hackerrank.com/profile/nkar90276"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white/70 hover:text-primary transition-all duration-300 transform hover:scale-125"
+  >
+    <FaHackerrank className="h-6 w-6" />
+    <span className="sr-only">HackerRank</span>
+  </a>
+
+  {/* Email */}
+  <a
+    href="mailto:nayan101kar@gmail.com"
+    className="text-white/70 hover:text-primary transition-all duration-300 transform hover:scale-125"
+  >
+    <Mail className="h-6 w-6" />
+    <span className="sr-only">Email</span>
+  </a>
   </motion.div>
 </section>
 )
