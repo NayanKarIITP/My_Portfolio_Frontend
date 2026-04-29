@@ -74,7 +74,7 @@ const projects = [
     ],
   },
   {
-    title: "DevTinder",
+    title: "TechTribe — Developer Social Platform",
     description:
       "A social platform for developers to connect, collaborate on projects, and chat in real-time about technical skills.",
     technologies: ["React", "Node.js", "Express.js", "MongoDB", "Web Sockets"],
