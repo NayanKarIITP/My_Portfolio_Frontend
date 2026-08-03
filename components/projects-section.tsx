@@ -55,7 +55,24 @@ const projects = [
       { label: "Live Demo", url: "https://carrier-copilot.vercel.app/" },
     ],
   },
-
+{
+  title: "AI-Powered Soft Skills Assessment Platform",
+  description:
+    "Led a 4-member team under IIT Patna to build an AI-powered soft skills assessment platform. Developed the assessment engine, RBAC-based Admin & Student portals, automated scoring, feature-wise analytics, and scalable database architecture.",
+  technologies: [
+    "Next.js",
+    "TypeScript",
+    "Prisma ORM",
+    "PostgreSQL",
+    "Node.js",
+    "RBAC",
+    "REST APIs",
+  ],
+  links: [
+    { label: "Live Demo", url: "YOUR_LIVE_LINK" },
+    { label: "GitHub", url: "YOUR_GITHUB_LINK" },
+  ],
+},
   {
     title: "Financial Sentiment Stock Predictor",
     description:
