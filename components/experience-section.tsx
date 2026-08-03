@@ -30,9 +30,9 @@ const experience = [
   },
 
   {
-    title: "AI/ML & Software Engineer Intern",
+    title: "Software Engineer Intern",
     company: "ProdeskIT",
-    period: "January 2026 - April 2026",
+    period: "January 2026 - May 2026",
     description: [
       "Developed REST APIs and backend services using Node.js, Express.js, and MongoDB.",
       "Built data preprocessing pipelines for machine learning workflows.",
